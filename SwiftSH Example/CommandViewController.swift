@@ -73,25 +73,29 @@ class CommandViewController: UIViewController, SSHViewController {
             self.navigationController?.popViewController(animated: true)
         }
     }
-
+    
+    @IBAction func ButtonInit(_ sender: UIButton) {
+        performCommand("python robotics/carbot.py x")
+    }
+    
     @IBAction func ButtonF(_ sender: UIButton) {
-        performCommand("python robotics/robot2.py w")
+        performCommand("python robotics/carbot.py w")
     }
     
     @IBAction func ButtonR(_ sender: UIButton) {
-        performCommand("python robotics/robot2.py s")
+        performCommand("python robotics/carbot.py s")
     }
     
     @IBAction func ButtonL(_ sender: UIButton) {
-        performCommand("python robotics/robot2.py a")
+        performCommand("python robotics/carbot.py a")
     }
     
     @IBAction func ButtonB(_ sender: UIButton) {
-        performCommand("python robotics/robot2.py z")
+        performCommand("python robotics/carbot.py z")
     }
     
     @IBAction func ButtonQ(_ sender: UIButton) {
-        performCommand("python robotics/robot2.py q")
+        performCommand("python robotics/carbot.py q")
     }
     
     func performCommand(_ command: String) {
