@@ -73,6 +73,26 @@ class CommandViewController: UIViewController, SSHViewController {
             self.navigationController?.popViewController(animated: true)
         }
     }
+
+    @IBAction func ButtonF(_ sender: UIButton) {
+        performCommand("python robotics/robot2.py w")
+    }
+    
+    @IBAction func ButtonR(_ sender: UIButton) {
+        performCommand("python robotics/robot2.py s")
+    }
+    
+    @IBAction func ButtonL(_ sender: UIButton) {
+        performCommand("python robotics/robot2.py a")
+    }
+    
+    @IBAction func ButtonB(_ sender: UIButton) {
+        performCommand("python robotics/robot2.py z")
+    }
+    
+    @IBAction func ButtonQ(_ sender: UIButton) {
+        performCommand("python robotics/robot2.py q")
+    }
     
     func performCommand(_ command: String) {
         self.commandTextField.resignFirstResponder()
