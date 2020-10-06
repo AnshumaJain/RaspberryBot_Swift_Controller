@@ -73,11 +73,7 @@ class CommandViewController: UIViewController, SSHViewController {
             self.navigationController?.popViewController(animated: true)
         }
     }
-    
-    @IBAction func ButtonInit(_ sender: UIButton) {
-        performCommand("python robotics/carbot.py x")
-    }
-    
+        
     @IBAction func ButtonF(_ sender: UIButton) {
         performCommand("python robotics/carbot.py w")
     }

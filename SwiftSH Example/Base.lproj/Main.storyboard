@@ -305,7 +305,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hL5-NK-A8g">
-                                <rect key="frame" x="181" y="466" width="60" height="60"/>
+                                <rect key="frame" x="179" y="466" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="ButtonB">
                                     <imageReference key="image" image="arrowtriangle.down.fill" catalog="system" symbolScale="large"/>
@@ -324,17 +324,6 @@
                                 </state>
                                 <connections>
                                     <action selector="ButtonL:" destination="Iia-ao-RYT" eventType="touchUpInside" id="y7z-YK-E3k"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zld-eb-aiE">
-                                <rect key="frame" x="158" y="389" width="47" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="ButtonQ">
-                                    <imageReference key="image" image="stop.circle.fill" catalog="system" symbolScale="large"/>
-                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="50"/>
-                                </state>
-                                <connections>
-                                    <action selector="ButtonQ:" destination="Iia-ao-RYT" eventType="touchUpInside" id="GKE-ec-yVg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ur8-2r-eI2">
@@ -389,16 +378,6 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rLE-85-fbv">
-                                <rect key="frame" x="213" y="389" width="47" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="play.circle.fill" catalog="system">
-                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="50" scale="large" weight="bold"/>
-                                </state>
-                                <connections>
-                                    <action selector="ButtonInit:" destination="Iia-ao-RYT" eventType="touchUpInside" id="4Pz-2e-45v"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WXo-5q-rtM">
                                 <rect key="frame" x="181" y="296" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -409,6 +388,17 @@
                                 </state>
                                 <connections>
                                     <action selector="ButtonF:" destination="Iia-ao-RYT" eventType="touchUpInside" id="ZUo-pm-K4V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zld-eb-aiE">
+                                <rect key="frame" x="174" y="379" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="ButtonQ">
+                                    <imageReference key="image" image="stop.circle.fill" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="50"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonQ:" destination="Iia-ao-RYT" eventType="touchUpInside" id="GKE-ec-yVg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -447,7 +437,6 @@
         <image name="arrowtriangle.left.fill" catalog="system" width="128" height="113"/>
         <image name="arrowtriangle.right.fill" catalog="system" width="128" height="113"/>
         <image name="arrowtriangle.up.fill" catalog="system" width="128" height="124"/>
-        <image name="play.circle.fill" catalog="system" width="128" height="121"/>
         <image name="stop.circle.fill" catalog="system" width="128" height="121"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
